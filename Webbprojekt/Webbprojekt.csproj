@@ -218,6 +218,14 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\arvin.ttf" />
+    <Content Include="fonts\bebas.TTF" />
+    <Content Include="fonts\calm.ttf" />
+    <Content Include="fonts\john.otf" />
+    <Content Include="fonts\montserrat.otf" />
+    <Content Include="fonts\montserratl.ttf" />
+    <Content Include="fonts\oswald.ttf" />
+    <Content Include="fonts\slim.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
