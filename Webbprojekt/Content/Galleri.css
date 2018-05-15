@@ -7,14 +7,14 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr); /*Ändras för att lägga till fler bilder, denna skapar flera rader i grid systemet */
     grid-gap: 3vw;
-    margin-left: 8%;
-    margin-right: 8%;
     text-align:center;
+    width:80%;
+    margin:0 auto;
 }
 
 .item {
     text-align: center;
-    width: 80%;
+    width: 100%;
 }
 
     .item img {
@@ -42,4 +42,8 @@ img.grayscale {
 
 p {
     font-family: "Montserrat";
+}
+.galleriP{
+    padding-top:7%;
+    font-size:2em;
 }
