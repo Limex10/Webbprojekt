@@ -1,0 +1,77 @@
+﻿body {
+    min-width: 720px;
+}
+
+
+.navlogo {
+    display: none;
+    position: absolute;
+    width: 100px;
+    margin-left: calc(50% - 50px)
+}
+
+.navtop {
+    padding: 5px 0;
+    background: rgba(0, 0, 0, 0);
+    transition: .3s;
+}
+
+.navbottom {
+    padding: 10px 0;
+    background: rgba(0, 0, 0, .9);
+    transition: .3s;
+}
+
+.navlogotop {
+    top: -100px;
+    display: block;
+}
+
+.navlogobottom {
+    top: 6px;
+    transition: .3s;
+    display: block;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbg {
+    background: rgba(0, 0, 0, .8);
+}
+
+nav ul li a {
+    color: #ffe68a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 14px;
+    width: 120px;
+    float: left;
+    text-align: center;
+    margin-top: 4px;
+    padding: 5px 0;
+    transition: .4s;
+}
+
+    nav ul li a:hover {
+        transition: .2s;
+        color: #fff;
+    }
+
+nav ul {
+    width: 240px;
+    margin: 0 10%;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    top: 0;
+    float: right;
+}

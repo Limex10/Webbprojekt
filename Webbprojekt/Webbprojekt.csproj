@@ -202,8 +202,14 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bilder\backbutton100px.png" />
-    <Content Include="bilder\Denis.jpg" />
+    <Content Include="Content\Menucss.css" />
+    <Content Include="Content\Reset.css" />
+    <Content Include="Scripts\nav.js" />
+    <Content Include="Images\arrow_down.png" />
+    <Content Include="Images\backbutton100px.png" />
+    <Content Include="Images\BG.jpg" />
+    <Content Include="Images\BG.png" />
+    <Content Include="Images\Denis.jpg" />
     <Content Include="Content\Backtotop.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -212,6 +218,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\logo_ext2.png" />
+    <Content Include="Images\navlogo.png" />
     <Content Include="Scripts\Backtotop.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -248,8 +256,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
@@ -273,6 +279,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\galleri.cshtml" />
     <Content Include="Views\Shared\BackToTop.cshtml" />
+    <Content Include="Views\Shared\Menu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
