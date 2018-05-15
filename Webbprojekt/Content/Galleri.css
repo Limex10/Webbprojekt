@@ -1,0 +1,45 @@
+﻿* {
+    margin: 0;
+}
+
+.containergalleri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); /*Ändras för att lägga till fler bilder, denna skapar flera rader i grid systemet */
+    grid-gap: 3vw;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align:center;
+}
+
+.item {
+    text-align: center;
+    width: 80%;
+}
+
+    .item img {
+        width: 100%;
+    }
+
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+    img.grayscale:hover {
+        filter: none;
+        transition: 0.7s;
+        -webkit-filter: grayscale(0%);
+    }
+
+.item a {
+    color: black;
+}
+
+@font-face {
+}
+
+p {
+    font-family: "Montserrat";
+}
