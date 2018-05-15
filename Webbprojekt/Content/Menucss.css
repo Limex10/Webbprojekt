@@ -47,7 +47,7 @@ nav ul li a {
     color: #ffe68a;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: montserrat;
+    font-family: RobotoRegular;
     font-size: 14px;
     width: 120px;
     float: left;
@@ -60,6 +60,7 @@ nav ul li a {
     nav ul li a:hover {
         transition: .2s;
         color: #fff;
+        text-decoration:none;
     }
 
 nav ul {
