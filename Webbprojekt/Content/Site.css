@@ -22,3 +22,11 @@ select,
 textarea {
     max-width: 280px;
 }
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/montserrat.otf);
+    font-weight: normal;
+}
+body {
+    font-family: Montserrat;
+}
