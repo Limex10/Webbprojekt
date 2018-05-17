@@ -7,6 +7,6 @@ namespace Webbprojekt.Models
 {
     public class StoreContext : DbContext
     {
-        public
+        public DbSet<Gallery> Galleries { get; set; }
     }
 }
