@@ -6,8 +6,10 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using Webbprojekt.Models;
+using System.Web.Helpers;
 
-namespace Webbprojekt.Models
+namespace Webbprojekt.Controllers
 {
     public class GalleriesController : Controller
     {
@@ -45,10 +47,14 @@ namespace Webbprojekt.Models
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,ArtistName,ImageFile")] Gallery gallery)
+        public ActionResult Create([Bind(Include = "ID,ArtistName,ImageFile")] Gallery gallery, HttpPostedFileBase file)
         {
             if (ModelState.IsValid)
             {
+                WebImage webImage = new WebImage(file.InputStream);
+                webImage.Save("~/Images/" + file.FileName);
+                gallery.ImageFile = file.FileName;
+
                 db.Galleries.Add(gallery);
                 db.SaveChanges();
                 return RedirectToAction("Index");
