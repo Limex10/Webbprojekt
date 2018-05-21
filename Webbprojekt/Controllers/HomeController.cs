@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using Webbprojekt.Models;
 using System.Net;
 using System.Net.Mail;
-using MVCEmail.Models;
+using Webbprojekt.Models;
 
 
 namespace Webbprojekt.Controllers
