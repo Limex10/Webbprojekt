@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    font-family: montserrat;
+}
+
+.vara-tatuerare {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+    margin: 2%
+}
+
+.artist a, .artist p {
+    color: #ffe68a;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.artist-animate-div p{
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    font-size: 3vw;
+}
+
+.artist-animate-div a:hover {
+    color: #fff;
+}
+
+.artist-name {
+    margin-top: 20px;
+    letter-spacing: 1vw;
+    font-family: montserratl;
+}
+
+.link-div {
+    position: absolute;
+    top: 35%;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 30%;
+}
+
+.artist-animate-div {
+    position: relative;
+}
+
+.artist img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: slimJoe;
+    src: url(fonts/slim.otf);
+} /*slimJoe*/
+@font-face {
+    font-family: montserratl;
+    src: url(fonts/montserratl.ttf);
+} /*slimJoe*/
+@font-face {
+    font-family: oswald;
+    src: url(fonts/oswald.ttf);
+} /*oswald*/
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/montserrat.otf);
+} /*montserrat*/

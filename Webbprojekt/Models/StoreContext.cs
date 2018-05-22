@@ -15,5 +15,6 @@ namespace Webbprojekt.Models
         }
 
         public DbSet<Gallery> Galleries { get; set; }
+        public DbSet<Artist> Artists { get; set; }
     }
 }

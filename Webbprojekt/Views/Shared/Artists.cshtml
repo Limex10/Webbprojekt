@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Webbprojekt.Models.Artist>
+
+<div class="vara-tatuerare">
+
+    @foreach (var item in Model)
+    {
+        <div class="artist">
+            <div class="artist-animate-div">
+                <img src="@Url.Content("~/Images/" + item.ImageFile)" alt="Error picture not found">
+                <div class="link-div">
+                    <a href="@item.TwitterLink"><i class="fab fa-twitter"></i></a>
+                    <a href="@item.InstagramLink"><i class="fab fa-instagram"></i></a>
+                    <a href="@item.FacebookLink"><i class="fab fa-facebook"></i></a>
+                </div>
+                <br>
+                <a href="#"><p>boka</p></a>
+            </div>
+
+            <p class="artist-name">@item.ArtistName</p>
+        </div>
+    }
+</div>

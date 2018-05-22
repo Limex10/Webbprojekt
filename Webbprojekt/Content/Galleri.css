@@ -1,8 +1,4 @@
-﻿* {
-    margin: 0;
-}
-
-.containergalleri {
+﻿.containergalleri {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr); /*Ändras för att lägga till fler bilder, denna skapar flera rader i grid systemet */
