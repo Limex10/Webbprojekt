@@ -13,7 +13,14 @@ namespace Webbprojekt.Controllers
 
         public ActionResult Index()
         {
-            return View(db.Galleries.ToList());
+            //var tupleModel = new Tuple<List<Artist>, List<Gallery>>(db.Artists.ToList(), db.Galleries.ToList());
+
+            ArtistGalleryModels model = new ArtistGalleryModels();
+
+            model.Artists = db.Artists.ToList();
+            model.Galleries = db.Galleries.ToList();
+
+            return View(model);
         }
 
 

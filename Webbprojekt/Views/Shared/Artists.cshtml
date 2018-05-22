@@ -1,8 +1,9 @@
-﻿@model IEnumerable<Webbprojekt.Models.Artist>
+﻿@model Webbprojekt.Models.ArtistGalleryModels
+
 
 <div class="vara-tatuerare">
 
-    @foreach (var item in Model)
+    @foreach (var item in Model.Artists)
     {
         <div class="artist">
             <div class="artist-animate-div">
@@ -16,7 +17,7 @@
                 <a href="#"><p>boka</p></a>
             </div>
 
-            <p class="artist-name">@item.ArtistName</p>
+            <p class="artist-name">@item.Name</p>
         </div>
     }
 </div>

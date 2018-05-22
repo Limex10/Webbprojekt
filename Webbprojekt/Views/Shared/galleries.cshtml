@@ -1,17 +1,23 @@
-﻿@model IEnumerable<Webbprojekt.Models.ArtistGalleryModels>
+﻿@model Webbprojekt.Models.ArtistGalleryModels
 
 
 <div class="containergalleri">
 
-    @foreach (var item in Model)
+    @foreach (var item in Model.Galleries)
     {
         <div class="item">
-            <a href="#"><img class="grayscale" src="@Url.Content("~/Images/" + item.Artist.ImageFile)" alt="Error picture can not be found" /></a>
-            <p class="galleriP">Made by <span>@item.Artist.Name</span></p>
+            <a href="#"><img class="grayscale" src="@Url.Content("~/Images/" + item.ImageFile)" alt="Error picture can not be found" /></a>
+            @foreach (var artist in Model.Artists)
+            {
+                if (item.ArtistID == artist.ID)
+                {
+                    <p class="galleriP">Made by <span>@artist.Name</span></p>
+                }
+            }
         </div>
     }
 
-     
+
     <!--<div class="item">
         <a href="#">
             <img class="grayscale" src="Images/Denis.jpg" alt="Error picture not found">
@@ -21,4 +27,4 @@
 
     </div>
     -->
-    </div>
+</div>

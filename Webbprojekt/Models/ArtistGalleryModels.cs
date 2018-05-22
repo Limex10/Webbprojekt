@@ -8,8 +8,8 @@ namespace Webbprojekt.Models
     public class ArtistGalleryModels
     {
 
-        public Artist Artist { get; set; }
-        public Gallery Gallery { get; set; }
+        public List<Artist> Artists { get; set; }
+        public List<Gallery> Galleries { get; set; }
 
     }
 }

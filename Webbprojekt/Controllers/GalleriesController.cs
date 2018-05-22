@@ -47,7 +47,7 @@ namespace Webbprojekt.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,ArtistName,ImageFile")] Gallery gallery, HttpPostedFileBase file)
+        public ActionResult Create([Bind(Include = "ID,ArtistID,ImageFile")] Gallery gallery, HttpPostedFileBase file)
         {
             if (ModelState.IsValid)
             {
@@ -83,7 +83,7 @@ namespace Webbprojekt.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,ArtistName,ImageFile")] Gallery gallery)
+        public ActionResult Edit([Bind(Include = "ID,ArtistID,ImageFile")] Gallery gallery)
         {
             if (ModelState.IsValid)
             {

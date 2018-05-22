@@ -14,7 +14,8 @@ namespace Webbprojekt.Models
             base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<Gallery> Galleries { get; set; }
         public DbSet<Artist> Artists { get; set; }
+
+        public DbSet<Gallery> Galleries { get; set; }
     }
 }
