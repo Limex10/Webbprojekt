@@ -11,8 +11,7 @@ namespace Webbprojekt.Models
         [Key]
         public int ID { get; set; }
 
-        [Required(ErrorMessage = "Du måste fylla i artsitens namn." )]
-        public string ArtistName { get; set; }
+        public int ArtistID { get; set; }
 
         public string ImageFile { get; set; }
     }

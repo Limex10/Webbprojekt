@@ -12,7 +12,7 @@ namespace Webbprojekt.Models
         public int ID { get; set; }
 
         [Required(ErrorMessage = "Du måste fylla i artistens namn..")]
-        public string ArtistName { get; set; }
+        public string Name { get; set; }
 
         [Required(ErrorMessage = "Fyll i artistens Twitter..")]
         public string TwitterLink { get; set; }
