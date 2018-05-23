@@ -213,6 +213,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Footer.css" />
     <Content Include="Content\Menucss.css" />
     <Content Include="Content\ourArtists.css" />
     <Content Include="Content\Reset.css" />
@@ -304,6 +305,7 @@
     <Content Include="Views\Shared\Artists.cshtml" />
     <Content Include="Views\Shared\Top.cshtml" />
     <Content Include="Views\Shared\AboutUs.cshtml" />
+    <Content Include="Views\Shared\Footer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

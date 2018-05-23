@@ -15,6 +15,10 @@
     font-family: 'Montserrat', sans-serif;
     padding: 15px;
     height: 175px;
+    list-style: none;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
 }
 
 footer p {
@@ -35,12 +39,6 @@ footer p, footer li {
     color: rgba(255, 255, 255, 0.6);
 }
 
-ul {
-    list-style: none;
-    font-weight: normal;
-    margin: 0px;
-    padding: 0px;
-}
 
 .ul1 {
     grid-row-start: 2;
@@ -52,7 +50,7 @@ ul {
     grid-column-start: 4;
 }
 
-li {
+#footer li {
     padding-bottom: 5px;
     text-decoration: none;
 }
