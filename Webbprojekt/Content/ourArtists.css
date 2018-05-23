@@ -1,9 +1,16 @@
-
 .vara-tatuerare {
+    padding: 8% 4%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 2%;
-    margin: 2%
+    grid-gap: 4%;
+    background: url("../Images/aboutUsBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 3s;
+}
+
+.artist {
+    transition-duration: 3s;
 }
 
 .artist a, .artist p {
@@ -13,21 +20,36 @@
     text-align: center;
 }
 
-.artist-animate-div p{
+.artist-boka {
+    transition-duration: 3s;
     position: absolute;
     width: 100%;
-    top: 60%;
+    top: 50%;
     font-size: 3vw;
 }
 
-.artist-animate-div a:hover {
+.artist-boka-inactive {
+    display: none;
+    transition-duration: 3s;
+}
+
+.artist a:hover {
+    color: #fff;
+}
+
+.artist-boka p:hover {
     color: #fff;
 }
 
 .artist-name {
     margin-top: 20px;
-    letter-spacing: 1vw;
-  
+    letter-spacing: .7vw;
+    font-size: 20px;
+}
+
+.link-div-inactive {
+    display: none;
+    transition-duration: 3s;
 }
 
 .link-div {
@@ -37,10 +59,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 30%;
+    transition-duration: 3s;
 }
 
 .artist-animate-div {
     position: relative;
+    display: block;
 }
 
 .artist img {
@@ -50,32 +74,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@font-face {
-    font-family: slimJoe;
-    src: url(fonts/slim.otf);
-} /*slimJoe*/
-@font-face {
-    font-family: montserratl;
-    src: url(fonts/montserratl.ttf);
-} /*slimJoe*/
-@font-face {
-    font-family: oswald;
-    src: url(fonts/oswald.ttf);
-} /*oswald*/
-@font-face {
-    font-family: montserrat;
-    src: url(fonts/montserrat.otf);
-} /*montserrat*/
