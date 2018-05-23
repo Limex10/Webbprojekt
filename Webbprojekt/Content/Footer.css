@@ -12,12 +12,12 @@
     grid-column-gap: 20px;
     width: 95%;
     color: rgba(255,255,255,1);
-    font-family: 'Montserrat', sans-serif;
     padding: 15px;
     height: 175px;
     list-style: none;
     font-weight: normal;
     margin: 0px;
+    margin-left: 5%;
     padding: 0px;
 }
 
@@ -32,6 +32,7 @@ footer h4 {
     letter-spacing: 3px;
     font-size: 20px;
     font-weight: normal;
+
 }
 
 footer p, footer li {

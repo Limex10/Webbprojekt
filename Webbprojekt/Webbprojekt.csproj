@@ -213,11 +213,13 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\aboutUs.css" />
     <Content Include="Content\Footer.css" />
     <Content Include="Content\Menucss.css" />
     <Content Include="Content\ourArtists.css" />
     <Content Include="Content\Reset.css" />
     <Content Include="Content\top.css" />
+    <Content Include="Images\aboutUsBG.png" />
     <Content Include="Images\SRT-Logo.png" />
     <Content Include="Scripts\nav.js" />
     <Content Include="Images\arrow_down.png" />
