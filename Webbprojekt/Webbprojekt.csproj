@@ -216,6 +216,8 @@
     <Content Include="Content\Menucss.css" />
     <Content Include="Content\ourArtists.css" />
     <Content Include="Content\Reset.css" />
+    <Content Include="Content\top.css" />
+    <Content Include="Images\SRT-Logo.png" />
     <Content Include="Scripts\nav.js" />
     <Content Include="Images\arrow_down.png" />
     <Content Include="Images\backbutton100px.png" />
@@ -300,6 +302,8 @@
     <Content Include="Views\Artists\Edit.cshtml" />
     <Content Include="Views\Artists\Index.cshtml" />
     <Content Include="Views\Shared\Artists.cshtml" />
+    <Content Include="Views\Shared\Top.cshtml" />
+    <Content Include="Views\Shared\AboutUs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

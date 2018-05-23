@@ -1,7 +1,3 @@
-html, body {
-    height: 100%;
-    font-family: montserrat;
-}
 
 .vara-tatuerare {
     display: grid;
@@ -31,7 +27,7 @@ html, body {
 .artist-name {
     margin-top: 20px;
     letter-spacing: 1vw;
-    font-family: montserratl;
+  
 }
 
 .link-div {

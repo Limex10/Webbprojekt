@@ -1,11 +1,13 @@
 ﻿.containergalleri {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr); /*Ändras för att lägga till fler bilder, denna skapar flera rader i grid systemet */
+    grid-template-columns: repeat(5, 1fr);
+    /*grid-template-rows: repeat(2, 1fr); /*Ändras för att lägga till fler bilder, denna skapar flera rader i grid systemet */
     grid-gap: 3vw;
     text-align:center;
-    width:80%;
+    width:100%;
     margin:0 auto;
+    background-color: #ffffff;
+    padding: 4% 10%;
 }
 
 .item {
@@ -38,10 +40,10 @@ img.grayscale {
     text-transform:uppercase;
     font-size:1em;
 }
-    .containergalleri p span{
-        font-size:2em;
-        color:#000000;
-        padding-left:2%;
+    .containergalleri p span {
+        font-size: 2em;
+        color: #ffe68a;
+        padding-left: 2%;
     }
 
 .galleriP {
