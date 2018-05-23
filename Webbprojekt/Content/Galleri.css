@@ -7,7 +7,7 @@
     width:100%;
     margin:0 auto;
     background-color: #ffffff;
-    padding: 4% 10%;
+    padding: 2% 10% 5% 10%;
 }
 
 .item {
@@ -50,3 +50,15 @@ img.grayscale {
         padding-top: 7%;
         color: #ffe68a;
     }
+
+.galleriHeader{
+
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.galleriHeader h1{
+
+    margin: 0;
+    padding: 100px 0 10px 0;
+}

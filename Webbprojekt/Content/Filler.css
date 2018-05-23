@@ -1,0 +1,27 @@
+﻿#FillerContainer {
+
+    background-image: url("../Images/BG.jpg");
+    height:800px;
+}
+
+#FillerH2{
+    margin: 0;
+    text-align:center;
+    padding: 320px 0;
+    color: #ffffff;
+   
+}
+
+#FillerSpan1 {
+    font-size: 1.8em;
+    font-family: RobotoLight;
+    text-transform: uppercase;
+}
+
+#FillerSpan2 {
+    margin-top: 30px;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: RobotoMedium;
+}
+

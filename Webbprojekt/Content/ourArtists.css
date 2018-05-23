@@ -3,7 +3,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2%;
-    margin: 2%
+    margin: 2%;
+    
+}
+
+.vara-tatuerare-container{
+
+    background-color: #ffffff;
+    padding-bottom: 30px;
 }
 
 .artist a, .artist p {
