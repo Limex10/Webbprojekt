@@ -3,9 +3,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 4%;
-    background: url("../Images/aboutUsBG.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     transition-duration: 3s;
 }
 
@@ -71,6 +68,11 @@
     width: 100%;
 }
 
+.vara-tatuerare-container {
+    background: url("../Images/aboutUsBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 

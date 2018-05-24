@@ -55,3 +55,15 @@ img.grayscale:hover {
     padding-top: 7%;
     color: #ffe68a;
 }
+
+.galleriHeader {
+    background-color: black;
+    text-align: center;
+}
+
+    .galleriHeader h1 {
+        margin: 0;
+        padding: 100px 0 10px 0;
+        color: #ffe68a;
+    }
+
