@@ -309,6 +309,7 @@
     <Content Include="Views\Shared\Top.cshtml" />
     <Content Include="Views\Shared\AboutUs.cshtml" />
     <Content Include="Views\Shared\Footer.cshtml" />
+    <Content Include="Views\Shared\Filler.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
