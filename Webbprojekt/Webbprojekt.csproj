@@ -214,6 +214,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\aboutUs.css" />
+    <Content Include="Content\Filler.css" />
     <Content Include="Content\Footer.css" />
     <Content Include="Content\Menucss.css" />
     <Content Include="Content\ourArtists.css" />
