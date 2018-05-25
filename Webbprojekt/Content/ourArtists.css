@@ -1,0 +1,78 @@
+.vara-tatuerare {
+    padding: 8% 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4%;
+    transition-duration: 3s;
+}
+
+.artist {
+    transition-duration: 3s;
+}
+
+.artist a, .artist p {
+    color: #ffe68a;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.artist-boka {
+    transition-duration: 3s;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    font-size: 3vw;
+}
+
+.artist-boka-inactive {
+    display: none;
+    transition-duration: 3s;
+}
+
+.artist a:hover {
+    color: #fff;
+}
+
+.artist-boka p:hover {
+    color: #fff;
+}
+
+.artist-name {
+    margin-top: 20px;
+    letter-spacing: .7vw;
+    font-size: 20px;
+}
+
+.link-div-inactive {
+    display: none;
+    transition-duration: 3s;
+}
+
+.link-div {
+    position: absolute;
+    top: 35%;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 30%;
+    transition-duration: 3s;
+}
+
+.artist-animate-div {
+    position: relative;
+    display: block;
+}
+
+.artist img {
+    width: 100%;
+}
+
+.vara-tatuerare-container {
+    background: url("../Images/aboutUsBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+

@@ -1,25 +1,23 @@
-﻿* {
-    margin: 0;
-}
-
-.containergalleri {
+﻿.containergalleri {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr); /*Ändras för att lägga till fler bilder, denna skapar flera rader i grid systemet */
+    grid-template-columns: repeat(5, 1fr);
+    /*grid-template-rows: repeat(2, 1fr); /*Ändras för att lägga till fler bilder, denna skapar flera rader i grid systemet */
     grid-gap: 3vw;
-    margin-left: 8%;
-    margin-right: 8%;
-    text-align:center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 8% 4%;
+
 }
 
 .item {
     text-align: center;
-    width: 80%;
+    width: 100%;
 }
 
-    .item img {
-        width: 100%;
-    }
+.item img {
+    width: 100%;
+}
 
 img.grayscale {
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
@@ -27,19 +25,48 @@ img.grayscale {
     -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
-    img.grayscale:hover {
-        filter: none;
-        transition: 0.7s;
-        -webkit-filter: grayscale(0%);
+img.grayscale:hover {
+    filter: none;
+    transition: 0.7s;
+    -webkit-filter: grayscale(0%);
     }
 
 .item a {
     color: black;
 }
 
-@font-face {
+.containergalleri p {
+    font-family: RobotoLight;
+    text-transform: uppercase;
+    font-size: 1em;
 }
 
-p {
-    font-family: "Montserrat";
+.containergalleri p span {
+    font-size: 2em;
+    color: #ffe68a;
+    padding-left: 2%;
+}
+
+.galleriP {
+    padding-top: 7%;
+    color: #ffe68a;
+}
+
+.galleriHeader {
+   
+    text-align: center;
+
+}
+
+    .galleriHeader h1 {
+        margin: 0;
+        padding: 100px 0 10px 0;
+        letter-spacing: 2px;
+        color: #ffe68a;
+    }
+
+.galleri-Container {
+    background: url("../Images/aboutUsBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

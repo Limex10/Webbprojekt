@@ -1,0 +1,29 @@
+﻿@model Webbprojekt.Models.ArtistGalleryModels
+
+<div class="vara-tatuerare-container">
+
+    <div class="galleriHeader">
+        <h1>VÅRA TATUERARE</h1>
+    </div>
+
+    <div class="vara-tatuerare">
+
+        @foreach (var item in Model.Artists)
+        {
+            <div class="artist">
+                <div id="artist-animate" class="artist-animate-div">
+                    <img src="@Url.Content("~/Images/" + item.ImageFile)" alt="Error picture not found">
+                    <div class="link-div-inactive" id="link-div">
+                        <a href="@item.TwitterLink"><i class="fab fa-twitter"></i></a>
+                        <a href="@item.InstagramLink"><i class="fab fa-instagram"></i></a>
+                        <a href="@item.FacebookLink"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <br>
+                    <a href="#" class="artist-boka-inactive artist-boka" id="artist-boka"><p>boka</p></a>
+                </div>
+
+                <p class="artist-name">@item.Name</p>
+            </div>
+        }
+    </div>
+</div>

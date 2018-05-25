@@ -27,6 +27,21 @@ textarea {
     src: url(../fonts/montserrat.otf);
     font-weight: normal;
 }
+@font-face {
+    font-family: RobotoLight;
+    src: url(../fonts/Roboto-Light.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: RobotoMedium;
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+}
 body {
     font-family: Montserrat;
 }
