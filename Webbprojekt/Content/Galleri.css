@@ -6,12 +6,8 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    background-color: #ffffff;
     padding: 8% 4%;
 
-    background: url("../Images/aboutUsBG.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .item {
@@ -57,13 +53,20 @@ img.grayscale:hover {
 }
 
 .galleriHeader {
-    background-color: black;
+   
     text-align: center;
+
 }
 
     .galleriHeader h1 {
         margin: 0;
         padding: 100px 0 10px 0;
+        letter-spacing: 2px;
         color: #ffe68a;
     }
 
+.galleri-Container {
+    background: url("../Images/aboutUsBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
